@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class AddTodo extends Component {
   state = {
@@ -24,7 +24,7 @@ class AddTodo extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <label> Add Todo</label>
-          <input type="text" onChange={this.handleChange} value={this.state.content}/>
+          <input type="text" onChange={this.handleChange} value={this.state.content} />
         </form>
       </div>
     )
